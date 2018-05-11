@@ -1,7 +1,7 @@
 {
-  "name": "@stineseed/ng2-dnd",
-  "description": "Angular 6 Drag-and-Drop without dependencies",
-  "version": "6.0.0",
+  "name": "ng2-dnd",
+  "description": "Angular 2 Drag-and-Drop without dependencies",
+  "version": "5.0.2",
   "scripts": {
     "test": "karma start",
     "clean": "rimraf dist",
@@ -38,8 +38,8 @@
   "typings": "./ng2-dnd.d.ts",
   "homepage": "https://github.com/churchs19/ng2-dnd#readme",
   "peerDependencies": {
-    "@angular/core": "^4.0.0 || ^5.0.0 || ^6.0.0",
-    "@angular/forms": "^4.0.0 || ^5.0.0 || ^6.0.0"
+    "@angular/core": "^4.0.0 || ^5.0.0",
+    "@angular/forms": "^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
     "@angular/animations": "^6.1.10",
@@ -71,8 +71,7 @@
     "loader-utils": "^1.1.0",
     "ng-packagr": "^4.3.0",
     "reflect-metadata": "^0.1.10",
-    "rxjs": "^6.3.3",
-    "rxjs-compat": "^6.3.3",
+    "rxjs": "^6.1.0",
     "source-map-loader": "^0.2.1",
     "ts-helpers": "1.1.2",
     "tslib": "^1.9.0",
@@ -80,7 +79,7 @@
     "tslint-loader": "^3.5.3",
     "typescript": "^2.9.2",
     "webpack": "^3.6.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "^0.8.12"
   },
   "engines": {
     "npm": ">4.0.0"
