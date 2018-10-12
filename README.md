@@ -25,7 +25,7 @@ The library uses [ng-packagr](https://github.com/dherges/ng-packagr) to transpil
 ## Installation
 
 ```bash
-npm install @churchs19/ng2-dnd --save
+npm install @stineseed/ng2-dnd --save
 ```
 
 ## Demos (From original repo by Sergey Akopkokhyants)
@@ -40,14 +40,14 @@ If you use SystemJS to load your files, you might have to update your config:
 ```js
 System.config({
     map: {
-        'ng2-dnd': 'node_modules/@churchs19/ng2-dnd/bundles/ng2-dnd.umd.js'
+        'ng2-dnd': 'node_modules/@stineseed/ng2-dnd/bundles/ng2-dnd.umd.js'
     }
 });
 ```
 
 ### 1. Add the default styles
 
-- Import the `style.css` into your web page from `node_modules/@churchs19/ng2-dnd/bundles/style.css`
+- Import the `style.css` into your web page from `node_modules/@stineseed/ng2-dnd/bundles/style.css`
 
 ### 2. Import the `DndModule`
 
@@ -57,7 +57,7 @@ The `forRoot` method is a convention for modules that provide a singleton servic
 ```ts
 import {BrowserModule} from "@angular/platform-browser";
 import {NgModule} from '@angular/core';
-import {DndModule} from '@churchs19/ng2-dnd';
+import {DndModule} from '@stineseed/ng2-dnd';
 
 @NgModule({
     imports: [
@@ -779,7 +779,7 @@ Since it is possible to drag and drop one or more files to a drop zone, you need
 ```js
 import {Component} from '@angular/core';
 import {Http, Headers} from '@angular/http';
-import {DND_PROVIDERS, DND_DIRECTIVES} from '@churchs19/ng2-dnd/ng2-dnd';
+import {DND_PROVIDERS, DND_DIRECTIVES} from '@stineseed/ng2-dnd/ng2-dnd';
 import {bootstrap} from '@angular/platform-browser-dynamic';
 
 bootstrap(AppComponent, [

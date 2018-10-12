@@ -1,5 +1,5 @@
 {
-  "name": "@churchs19/ng2-dnd",
+  "name": "@stineseed/ng2-dnd",
   "description": "Angular 6 Drag-and-Drop without dependencies",
   "version": "6.0.0",
   "scripts": {
